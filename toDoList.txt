@@ -4,14 +4,14 @@
 ✅       II - Iniciar o Vite 🟨
 ✅           a. Instalar Yarn 🟨
 ✅           b. Iniciar localhost 🟨
-⬜       III - Iniciar GitFlow
-⬜           a. push na main
-⬜           b. push na Develop
-⬜           c. Checkout -b na feat
+✅       III - Iniciar GitFlow
+✅           a. push na main
+✅           b. push na Develop
+✅           c. Checkout -b na feat
 ⬜   2 - Ajustar o Scaffold (Instalar Styled-components) 🟨
-⬜       I - GlobalStyles
-⬜       II - Fonts
-⬜       III - Cards
+✅       I - GlobalStyles
+✅       II - Fonts
+✅       III - Cards
 ⬜       IV - Inputs 🚨
 ⬜       V - Buttons 🚨
 ⬜   3 - Criar Rotas
