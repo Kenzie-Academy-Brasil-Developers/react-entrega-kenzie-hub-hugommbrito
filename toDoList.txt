@@ -20,10 +20,10 @@
 ✅       II - Rota login, register e dashboard 
 ⬜       III - Utilizar componente Link (<Navigate to='' />) para navegar entre rotas 🚨
 ✅       IV - Defirnir navegação universal para a login caso a rota não exista
-⬜   4 - Configurar o Axios 🚨
-⬜       I - Instalar o Axios 🟨🚨
-⬜       II - Config baseURL 🚨
-⬜       III - Config timeout 🚨
+✅   4 - Configurar o Axios 🚨
+✅       I - Instalar o Axios 🟨🚨
+✅       II - Config baseURL 🚨
+✅       III - Config timeout 🚨
 ⬜   5 - PÁGINA REGISTRO DO USUÁRIO
 ⬜       I - Criar a estilização com styled-components
 ⬜       II - Criar formulário funcional
