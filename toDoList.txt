@@ -1,0 +1,100 @@
+⬜✅
+✅   1 - Iniciar Arquivo
+✅       I - Clonar Repositório
+✅       II - Iniciar o Vite 🟨
+✅           a. Instalar Yarn 🟨
+✅           b. Iniciar localhost 🟨
+⬜       III - Iniciar GitFlow
+⬜           a. push na main
+⬜           b. push na Develop
+⬜           c. Checkout -b na feat
+⬜   2 - Ajustar o Scaffold (Instalar Styled-components) 🟨
+⬜       I - GlobalStyles
+⬜       II - Fonts
+⬜       III - Cards
+⬜       IV - Inputs 🚨
+⬜       V - Buttons 🚨
+⬜   3 - Criar Rotas
+⬜       I - Instalar react-router-dom 🟨🚨
+⬜       II - Rota login, register e dashboard 
+⬜       III - Utilizar componente Link para navegar entre rotas 🚨
+⬜   4 - Configurar o Axios 🚨
+⬜       I - Instalar o Axios 🟨🚨
+⬜       II - Config baseURL 🚨
+⬜       III - Config timeout 🚨
+⬜   5 - PÁGINA REGISTRO DO USUÁRIO
+⬜       I - Criar a estilização com styled-components
+⬜       II - Criar formulário funcional
+⬜           a. Instalar react-hook-form 🟨🚨
+⬜           b. Criar estrutura do formulário
+⬜       III - Instalar yup 🟨🚨
+⬜       IV - Instalar @hookform/resolvers 🟨🚨
+⬜       V - Validações para o formulário 🚨
+⬜           a. Todos os campos obrigatórios
+⬜           b. Email no formato adequado
+⬜           c. Senha
+⬜               - Minimo 8 caracteres
+⬜               - Precisa ter letra
+⬜               - Precisa ter número
+⬜               - Precisa ter caracter especial
+⬜           d. Confirmação da Senha
+⬜       VI - Criar função de cadastro
+⬜           a. Aplicar no onSubmit do form
+⬜           c. Realizar requisição POST na rota /users (orientações na doc da api)
+⬜       VII - Criar notificação de Sucesso/erro
+⬜           a. Instalar react-toastify 🟨
+⬜           b. Configurar toasty combinando com a página
+⬜       VIII - Redirecionar para LOGIN em caso de Sucesso
+⬜   6 - PÁGINA DE LOGIN
+⬜       I - Criar a estilização com styled-components
+⬜       II - Criar formulário funcional com react-hook-form 🚨
+⬜       III - Validações para o formulário (Apenas campos obrigatórios) 🚨
+⬜       IV - Criar estado de loading na rota login
+⬜       V - Criar estado de usuário de forma global
+⬜       VI - Crair função de login (rota /sessions na API conforme a doc)
+⬜       VII - Criar toasty de sucesso/erro
+⬜       VIII - Em caso de sucesso:
+⬜           a. armazenar data.user no estado user
+⬜           b. Armazenar data.token no localStorage (@TOKEN)
+⬜           c. Armazenar data.user.id no localStorage (@USERID)
+⬜           d. Direcionar usuário para o dashboard
+⬜   7 - DASHBOARD
+⬜       I - Criar a estilização com styled-components
+⬜           a. Navbar (fixed)
+⬜           b. Header 🚨
+⬜           c. Main (flexbox aqui dentro)
+⬜       II - Renderizar informações de nome e módulo 🚨
+⬜       III - Criar função de logout 🚨 
+⬜           a. Limpar chaves do localStorage (@TOKEN e @USERID) 🚨
+⬜           b. Alterar estado de user 🚨
+⬜
+⬜   EXTRAS E BOAS PÁRTICAS
+⬜       I - Não ter arquivos CSS, só styled-components 🚨
+⬜       II - Colocar verificação automática nos requisitos da senha
+⬜       * Código bem indentado;
+⬜       * Variáveis bem descritivas;
+⬜       * Padronização:
+⬜           - com ou sem ponto e vírgula;
+⬜           - aspas duplas ou aspas simples;
+⬜           - arrow function ou regular function para os componentes
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
+⬜
