@@ -38,7 +38,7 @@ export const GlobalStyles = createGlobalStyle`
     --font-w500: 500;
     --font-w400: 400;
 
-    --radius-1: .3125rem; /* 5px */
+    --radius-1: .25rem; /* 4px */
     --radius-2: .5rem; /* 8px */
 
     --size-1: 3.5rem; /* 56px */
@@ -72,7 +72,9 @@ ul {
 
 .container-form {
     max-width: var(--container-2);
-    margin: 0 auto;
+    margin: 50px auto;
+    padding: 2.5rem 1.5rem;
+
 }
 
 .container{

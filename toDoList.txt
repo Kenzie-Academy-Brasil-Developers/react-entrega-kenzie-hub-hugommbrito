@@ -10,8 +10,8 @@
 ✅           c. Checkout -b na feat
 ⬜   2 - Ajustar o Scaffold (Instalar Styled-components) 🟨
 ✅       I - GlobalStyles
-⬜       II - Fonts
-⬜       III - Cards
+✅       II - Fonts
+✅       III - Cards
 ⬜       IV - Inputs 🚨
 ⬜       V - Buttons 🚨
 ⬜   3 - Criar Rotas
