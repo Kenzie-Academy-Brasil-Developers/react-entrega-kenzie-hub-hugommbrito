@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledButton = styled.button`
     width: max-content;
-    height: ${ props => props.small ? '1.25rem' : '3rem'};
+    height: ${ props => props.small ? '2rem' : '3rem'};
     padding: 0 ${ props => props.small ? '1rem' : '1.5rem'};
 
 

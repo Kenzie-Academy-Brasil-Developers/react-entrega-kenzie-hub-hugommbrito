@@ -25,7 +25,7 @@
 ✅       II - Config baseURL 🚨
 ✅       III - Config timeout 🚨
 ⬜   5 - PÁGINA REGISTRO DO USUÁRIO
-⬜       I - Criar a estilização com styled-components
+✅       I - Criar a estilização com styled-components
 ⬜       II - Criar formulário funcional
 ⬜           a. Instalar react-hook-form 🟨🚨
 ⬜           b. Criar estrutura do formulário
