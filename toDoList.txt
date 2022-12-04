@@ -8,16 +8,18 @@
 ✅           a. push na main
 ✅           b. push na Develop
 ✅           c. Checkout -b na feat
-⬜   2 - Ajustar o Scaffold (Instalar Styled-components) 🟨
+✅   2 - Ajustar o Scaffold (Instalar Styled-components) 🟨
 ✅       I - GlobalStyles
 ✅       II - Fonts
 ✅       III - Cards
-⬜       IV - Inputs 🚨
-⬜       V - Buttons 🚨
+✅       IV - Inputs 🚨
+✅       V - Buttons 🚨
 ⬜   3 - Criar Rotas
-⬜       I - Instalar react-router-dom 🟨🚨
-⬜       II - Rota login, register e dashboard 
-⬜       III - Utilizar componente Link para navegar entre rotas 🚨
+✅       I - Instalar react-router-dom 🟨🚨
+✅       II - Criar pasta de routes com arquivo de Rotas
+✅       II - Rota login, register e dashboard 
+⬜       III - Utilizar componente Link (<Navigate to='' />) para navegar entre rotas 🚨
+✅       IV - Defirnir navegação universal para a login caso a rota não exista
 ⬜   4 - Configurar o Axios 🚨
 ⬜       I - Instalar o Axios 🟨🚨
 ⬜       II - Config baseURL 🚨
@@ -86,9 +88,7 @@
 ⬜
 ⬜
 ⬜
-⬜
-⬜
-⬜
+⬜ 
 ⬜
 ⬜
 ⬜
