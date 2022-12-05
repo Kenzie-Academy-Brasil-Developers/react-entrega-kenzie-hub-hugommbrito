@@ -14,7 +14,8 @@ export const StyledDashboardNav = styled.nav`
         display: flex;
         justify-content: space-between;
     }
-    `
+`
+
 export const StyledDashboardHeader = styled.header`
     position: relative;
     top: 75px;

@@ -69,17 +69,16 @@
 ✅       III - Criar função de logout 🚨 
 ✅           a. Limpar chaves do localStorage (@TOKEN e @USERID) 🚨
 ✅           b. Alterar estado de user 🚨
-⬜
-⬜   EXTRAS E BOAS PÁRTICAS
-⬜       I - Não ter arquivos CSS, só styled-components 🚨
-⬜       II - Colocar verificação automática nos requisitos da senha
-⬜       * Código bem indentado;
-⬜       * Variáveis bem descritivas;
-⬜       * Padronização:
-⬜           - com ou sem ponto e vírgula;
-⬜           - aspas duplas ou aspas simples;
-⬜           - arrow function ou regular function para os componentes
-⬜
+
+✅   EXTRAS E BOAS PÁRTICAS
+✅       I - Não ter arquivos CSS, só styled-components 🚨
+✅       * Código bem indentado;
+✅       * Variáveis bem descritivas;
+✅       * Padronização:
+✅           - com ou sem ponto e vírgula;
+✅           - aspas duplas ou aspas simples;
+✅           - arrow function ou regular function para os componentes
+
 ⬜
 ⬜
 ⬜
@@ -89,6 +88,7 @@
 ⬜
 ⬜
 ⬜ 
+⬜
 ⬜
 ⬜
 ⬜

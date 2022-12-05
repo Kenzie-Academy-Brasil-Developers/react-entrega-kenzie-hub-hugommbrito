@@ -18,6 +18,7 @@ export const StyledButton = styled.button`
             }
         }
     };
+    
     border: 1px solid ${props => {
             if(props.small){
                 return 'var(--color-grey-3)'
@@ -40,30 +41,30 @@ export const StyledButton = styled.button`
     
     &:hover{
         background-color: ${props => {
-            if(props.small){
-                return 'var(--color-grey-2)'
-            }else if(props.grey){
-                return 'var(--color-grey-2)'
-            } else if (props.negative){
-                return 'var(--color-primary-negative)'
-            } else {
-                return 'var(--color-primary-focus)'
+                if(props.small){
+                    return 'var(--color-grey-2)'
+                }else if(props.grey){
+                    return 'var(--color-grey-2)'
+                } else if (props.negative){
+                    return 'var(--color-primary-negative)'
+                } else {
+                    return 'var(--color-primary-focus)'
+                }
             }
-        }
-    };
+        };
+        
     border: 1px solid ${props => {
-            if(props.small){
-                return 'var(--color-grey-2)'
-            }else if(props.grey){
-                return 'var(--color-grey-2)'
-            } else if (props.negative){
-                return 'var(--color-primary-negative)'
-            } else {
-                return 'var(--color-primary-focus)'
+                if(props.small){
+                    return 'var(--color-grey-2)'
+                }else if(props.grey){
+                    return 'var(--color-grey-2)'
+                } else if (props.negative){
+                    return 'var(--color-primary-negative)'
+                } else {
+                    return 'var(--color-primary-focus)'
+                }
             }
-        }
-    };
+        };
     }
     
-
 `

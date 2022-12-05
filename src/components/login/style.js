@@ -7,7 +7,7 @@ export const StyledLoginHeader = styled.div`
         margin: 0 auto;
         width: max-content;
     }
-    `
+`
 
 export const StyledLogin = styled.div`
     padding: 2.5rem 1.5rem;
