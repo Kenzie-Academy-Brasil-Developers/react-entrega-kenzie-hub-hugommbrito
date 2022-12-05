@@ -7,7 +7,7 @@ import { LoginPage } from '../components/login'
 import { RegisterPage } from '../components/register'
 
 export const RoutesStructure = () => {
-    const [user, setUser] = useState({id: 'c299bfc1-5ca6-4676-b283-c28905dd6a45', name: 'Hugo', email: 'hugo@mail.com', course_module: 'm3', bio: 'teste de bio',});
+    const [user, setUser] = useState({})
 
     return(
         <Routes >
@@ -15,7 +15,7 @@ export const RoutesStructure = () => {
             <Route path='/register' element={<RegisterPage />} />
             <Route path='/dashboard' element={<DashboardPage userInfo={user} setUser={setUser} />} />
 
-            <Route path="*" element={<Navigate to='/login' />} />
+            <Route path='*' element={<Navigate to='/login' />} />
         </Routes>
     )
 }
