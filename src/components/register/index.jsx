@@ -130,12 +130,12 @@ export const RegisterPage = () => {
                     <div className="inputDiv">
                         <StyledHeadline size='9' >Selecionar Módulo</StyledHeadline>
                         <StyledSelect {...register('course_module')} >
-                            <option value="m1">1º Módulo</option>
-                            <option value="m2">2º Módulo</option>
-                            <option value="m3">3º Módulo</option>
-                            <option value="m4">4º Módulo</option>
-                            <option value="m5">5º Módulo</option>
-                            <option value="m6">6º Módulo</option>
+                            <option value="1º Módulo">1º Módulo</option>
+                            <option value="2º Módulo">2º Módulo</option>
+                            <option value="3º Módulo">3º Módulo</option>
+                            <option value="4º Módulo">4º Módulo</option>
+                            <option value="5º Módulo">5º Módulo</option>
+                            <option value="6º Módulo">6º Módulo</option>
                         </StyledSelect>
                         { errors.course_module && <StyledHeadline color='primary' >{errors.course_module.message}</StyledHeadline>}
                     </div>
