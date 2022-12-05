@@ -47,19 +47,19 @@
 ✅           a. Instalar react-toastify 🟨
 ✅           b. Configurar toasty combinando com a página
 ✅       VIII - Redirecionar para LOGIN em caso de Sucesso
-⬜   6 - PÁGINA DE LOGIN
-⬜       I - Criar a estilização com styled-components
-⬜       II - Criar formulário funcional com react-hook-form 🚨
-⬜       III - Validações para o formulário (Apenas campos obrigatórios) 🚨
-⬜       IV - Criar estado de loading na rota login
-⬜       V - Criar estado de usuário de forma global
-⬜       VI - Crair função de login (rota /sessions na API conforme a doc)
-⬜       VII - Criar toasty de sucesso/erro
-⬜       VIII - Em caso de sucesso:
-⬜           a. armazenar data.user no estado user
-⬜           b. Armazenar data.token no localStorage (@TOKEN)
-⬜           c. Armazenar data.user.id no localStorage (@USERID)
-⬜           d. Direcionar usuário para o dashboard
+✅   6 - PÁGINA DE LOGIN
+✅       I - Criar a estilização com styled-components
+✅       II - Criar formulário funcional com react-hook-form 🚨
+✅       III - Validações para o formulário (Apenas campos obrigatórios) 🚨
+✅       IV - Criar estado de loading na rota login
+✅       V - Criar estado de usuário de forma global (armazenar data.user)
+✅       VI - Crair função de login (rota /sessions na API conforme a doc)
+✅       VII - Criar toasty de sucesso/erro
+✅       VIII - Em caso de sucesso:
+✅           a. armazenar data.user no estado user
+✅           b. Armazenar data.token no localStorage (@TOKEN)
+✅           c. Armazenar data.user.id no localStorage (@USERID)
+✅           d. Direcionar usuário para o dashboard
 ⬜   7 - DASHBOARD
 ⬜       I - Criar a estilização com styled-components
 ⬜           a. Navbar (fixed)
