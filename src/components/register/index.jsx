@@ -42,6 +42,7 @@ export const RegisterPage = () => {
     })
 
     const { register, handleSubmit, formState: {errors} } = useForm({
+        mode: 'onChange',
         resolver: yupResolver(formSchema)
     })
 
