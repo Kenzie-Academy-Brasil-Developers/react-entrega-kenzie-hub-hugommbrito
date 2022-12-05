@@ -60,15 +60,15 @@
 ✅           b. Armazenar data.token no localStorage (@TOKEN)
 ✅           c. Armazenar data.user.id no localStorage (@USERID)
 ✅           d. Direcionar usuário para o dashboard
-⬜   7 - DASHBOARD
-⬜       I - Criar a estilização com styled-components
-⬜           a. Navbar (fixed)
-⬜           b. Header 🚨
-⬜           c. Main (flexbox aqui dentro)
-⬜       II - Renderizar informações de nome e módulo 🚨
-⬜       III - Criar função de logout 🚨 
-⬜           a. Limpar chaves do localStorage (@TOKEN e @USERID) 🚨
-⬜           b. Alterar estado de user 🚨
+✅   7 - DASHBOARD
+✅       I - Criar a estilização com styled-components
+✅           a. Navbar (fixed)
+✅           b. Header 🚨
+✅           c. Main (flexbox aqui dentro)
+✅       II - Renderizar informações de nome e módulo 🚨
+✅       III - Criar função de logout 🚨 
+✅           a. Limpar chaves do localStorage (@TOKEN e @USERID) 🚨
+✅           b. Alterar estado de user 🚨
 ⬜
 ⬜   EXTRAS E BOAS PÁRTICAS
 ⬜       I - Não ter arquivos CSS, só styled-components 🚨

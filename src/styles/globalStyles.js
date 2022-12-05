@@ -53,7 +53,7 @@ export const GlobalStyles = createGlobalStyle`
     --gap-7: .5rem; /* 8px */
     --gap-8: .25rem; /* 4px */
 
-    --container-1: 75rem; /* 1200px */
+    --container-1: 55rem; /* 880px */
     --container-2: 23.75rem; /* 380px */
 }
 
