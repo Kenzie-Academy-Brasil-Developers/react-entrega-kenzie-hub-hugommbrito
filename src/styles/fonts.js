@@ -33,7 +33,7 @@ export const StyledHeadline = styled.p`
             return 'var(--color-grey-0)'
         }
     }};
-    font-size: var(--font-s12);
+    font-size: ${props => props.size ? `${props.size}px` : 'var(--font-s12)'};
     font-weight: ${props => props.bold ? 'var(--font-w600)' : 'var(--font-w400)'};
     font-style: ${props => props.italic ? 'italic' : 'normal'};
 `

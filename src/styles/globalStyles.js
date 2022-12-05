@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyles = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -72,8 +71,8 @@ ul {
 
 .container-form {
     max-width: var(--container-2);
-    margin: 50px auto;
-    padding: 2.5rem 1.5rem;
+    /* margin: 0 auto; */
+    /* padding: 2.5rem 1.5rem; */
 
 }
 
