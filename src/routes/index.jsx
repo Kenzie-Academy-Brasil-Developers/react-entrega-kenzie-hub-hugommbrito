@@ -13,7 +13,7 @@ export const RoutesStructure = () => {
         <Routes >
             <Route path='/login' element={<LoginPage setUser={setUser} />} />
             <Route path='/register' element={<RegisterPage />} />
-            <Route path='/dashboard' element={<DashboardPage userInfo={user} />} />
+            <Route path='/dashboard' element={<DashboardPage userInfo={user} setUser={setUser} />} />
 
             <Route path="*" element={<Navigate to='/login' />} />
         </Routes>

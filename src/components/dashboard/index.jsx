@@ -4,16 +4,21 @@ import { StyledDashboardHeader, StyledDashboardMain, StyledDashboardNav } from "
 import { StyledHeadline, StyledTitle } from "../../styles/fonts"
 import { StyledButton } from "../../styles/buttons";
 
-export const DashboardPage = ({ userInfo }) => {
+export const DashboardPage = ({ userInfo, setUser }) => {
     const navigate = useNavigate()
-    console.log(userInfo);
+
+    const logoutFunction = () => {
+        window.localStorage.clear()
+        setUser({})
+        navigate('/login')
+    }
 
     return(
         <>
             <StyledDashboardNav >
                 <div className="container" >
                     <StyledTitle type='title1' color='primary' >Kenzie Hub</StyledTitle>
-                    <StyledButton small onClick={() => navigate('/login')} >Sair</StyledButton>
+                    <StyledButton small onClick={logoutFunction} >Sair</StyledButton>
                 </div>
             </StyledDashboardNav>
             <StyledDashboardHeader >

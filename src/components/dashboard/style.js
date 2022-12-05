@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const StyledDashboardNav = styled.nav`
-    
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--color-grey-4);
+
     border-bottom: 1px solid var(--color-grey-3);
     
     div{
@@ -12,6 +16,9 @@ export const StyledDashboardNav = styled.nav`
     }
     `
 export const StyledDashboardHeader = styled.header`
+    position: relative;
+    top: 75px;
+    
     padding: 34px 0;
     
     border-bottom: 1px solid var(--color-grey-3);
@@ -32,8 +39,10 @@ export const StyledDashboardHeader = styled.header`
 `
 
 export const StyledDashboardMain = styled.main`
+    position: relative;
+    top: 75px;
     display: none;
-
+    
     h2{
         margin-top: 37px;
     }
