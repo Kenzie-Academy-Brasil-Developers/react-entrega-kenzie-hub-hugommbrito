@@ -14,39 +14,39 @@
 ✅       III - Cards
 ✅       IV - Inputs 🚨
 ✅       V - Buttons 🚨
-⬜   3 - Criar Rotas
+✅   3 - Criar Rotas
 ✅       I - Instalar react-router-dom 🟨🚨
 ✅       II - Criar pasta de routes com arquivo de Rotas
 ✅       II - Rota login, register e dashboard 
-⬜       III - Utilizar componente Link (<Navigate to='' />) para navegar entre rotas 🚨
+✅       III - Utilizar componente Link (<Navigate to='' />) para navegar entre rotas 🚨
 ✅       IV - Defirnir navegação universal para a login caso a rota não exista
 ✅   4 - Configurar o Axios 🚨
 ✅       I - Instalar o Axios 🟨🚨
 ✅       II - Config baseURL 🚨
 ✅       III - Config timeout 🚨
-⬜   5 - PÁGINA REGISTRO DO USUÁRIO
+✅   5 - PÁGINA REGISTRO DO USUÁRIO
 ✅       I - Criar a estilização com styled-components
-⬜       II - Criar formulário funcional
-⬜           a. Instalar react-hook-form 🟨🚨
-⬜           b. Criar estrutura do formulário
-⬜       III - Instalar yup 🟨🚨
-⬜       IV - Instalar @hookform/resolvers 🟨🚨
-⬜       V - Validações para o formulário 🚨
-⬜           a. Todos os campos obrigatórios
-⬜           b. Email no formato adequado
-⬜           c. Senha
-⬜               - Minimo 8 caracteres
-⬜               - Precisa ter letra
-⬜               - Precisa ter número
-⬜               - Precisa ter caracter especial
-⬜           d. Confirmação da Senha
-⬜       VI - Criar função de cadastro
-⬜           a. Aplicar no onSubmit do form
-⬜           c. Realizar requisição POST na rota /users (orientações na doc da api)
-⬜       VII - Criar notificação de Sucesso/erro
-⬜           a. Instalar react-toastify 🟨
-⬜           b. Configurar toasty combinando com a página
-⬜       VIII - Redirecionar para LOGIN em caso de Sucesso
+✅       II - Criar formulário funcional
+✅           a. Instalar react-hook-form 🟨🚨
+✅           b. Criar estrutura do formulário
+✅       III - Instalar yup 🟨🚨
+✅       IV - Instalar @hookform/resolvers 🟨🚨
+✅       V - Validações para o formulário 🚨
+✅           a. Todos os campos obrigatórios
+✅           b. Email no formato adequado
+✅           c. Senha
+✅               - Minimo 8 caracteres
+✅               - Precisa ter letra
+✅               - Precisa ter número
+✅              - Precisa ter caracter especial
+✅           d. Confirmação da Senha
+✅       VI - Criar função de cadastro
+✅           a. Aplicar no onSubmit do form
+✅           c. Realizar requisição POST na rota /users (orientações na doc da api)
+✅       VII - Criar notificação de Sucesso/erro
+✅           a. Instalar react-toastify 🟨
+✅           b. Configurar toasty combinando com a página
+✅       VIII - Redirecionar para LOGIN em caso de Sucesso
 ⬜   6 - PÁGINA DE LOGIN
 ⬜       I - Criar a estilização com styled-components
 ⬜       II - Criar formulário funcional com react-hook-form 🚨
