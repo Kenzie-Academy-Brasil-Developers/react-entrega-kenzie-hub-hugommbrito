@@ -8,9 +8,6 @@ import { Form } from './form'
 export const RegisterPage = () => {
     const navigate = useNavigate()
 
-
-
-
     return(
         <>
             <StyledRegisterHeader className='container-form'>

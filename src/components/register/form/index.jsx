@@ -31,29 +31,11 @@ export const Form = () => {
         try{
             const response = await api.post('users', formatedData)
             console.log(response);
-            toast.success('Usuário cadastrado com sucesso!', {
-                position: 'top-right',
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: false,
-                draggable: true,
-                progress: undefined,
-                theme: 'dark',
-            })
+            toast.success('Usuário cadastrado com sucesso!', {position: 'top-right',autoClose: 5000,hideProgressBar: false,closeOnClick: true,pauseOnHover: false,draggable: true,progress: undefined,theme: 'dark',})
             navigate('/login')
   
         } catch (error) {
-            toast.error(error.response.data.message, {
-                position: 'top-right',
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: false,
-                draggable: true,
-                progress: undefined,
-                theme: 'dark',
-            })
+            toast.error(error.response.data.message, {position: 'top-right',autoClose: 5000,hideProgressBar: false,closeOnClick: true,pauseOnHover: false,draggable: true,progress: undefined,theme: 'dark',})
 
         }
     }

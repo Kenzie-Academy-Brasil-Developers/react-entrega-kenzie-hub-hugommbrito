@@ -1,10 +1,10 @@
-import { RoutesStructure } from "./routes/index.jsx";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { RoutesStructure } from './routes/index.jsx';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-import { GlobalStyles } from "./styles/globalStyles";
-import { UserContextProvider } from "./contexts/userContext/index.jsx";
-import { TechContextProvider } from "./contexts/TechContext/index.jsx";
+import { GlobalStyles } from './styles/globalStyles';
+import { UserContextProvider } from './contexts/userContext/index.jsx';
+import { TechContextProvider } from './contexts/TechContext/index.jsx';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       </UserContextProvider>
 
       <ToastContainer
-        position="top-right"
+        position='top-right'
         autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
@@ -27,7 +27,7 @@ function App() {
         pauseOnFocusLoss
         draggable
         pauseOnHover={false}
-        theme="dark"
+        theme='dark'
       />
     </>
   );

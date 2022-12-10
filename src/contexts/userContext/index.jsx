@@ -1,5 +1,5 @@
-import React, { createContext, useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { createContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { toast} from 'react-toastify'
 
 import { api } from '../../services/api'
@@ -12,10 +12,10 @@ export const UserContextProvider = ({ children }) => {
     const [userTechs, setUserTechs] = useState([]);
     const [loading, setLoading] = useState(false)
 
-    useEffect(() => {
-        const token = window.localStorage.getItem('@TOKEN')
-        const userId = window.localStorage.getItem('@USERID')
+    const token = window.localStorage.getItem('@TOKEN')
+    const userId = window.localStorage.getItem('@USERID')
 
+    useEffect(() => {
         if(token){
             (async () => {
                 try {
@@ -23,14 +23,13 @@ export const UserContextProvider = ({ children }) => {
                     const response = await api.get(`users/${userId}`)
                     setUser(response.data)
                     setUserTechs([...response.data.techs])
-
                     
                 } catch (error) {
                     window.localStorage.clear()
                     console.error(error);
+
                 } finally {
                     setLoading(false)
-
                 }
             })()
         } else {
@@ -74,7 +73,6 @@ export const UserContextProvider = ({ children }) => {
             setLoading(false)
 
         }
-
     }
 
     const logout = () => {
@@ -84,7 +82,7 @@ export const UserContextProvider = ({ children }) => {
     }
 
     return (
-        <UserContext.Provider value={{login, user, loading, logout, userTechs}} >
+        <UserContext.Provider value={{login, user, loading, logout, userTechs, setUserTechs}} >
             { children }
         </UserContext.Provider>
     )
