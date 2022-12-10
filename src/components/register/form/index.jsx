@@ -2,13 +2,13 @@ import { useNavigate } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { formSchema } from './formSchema'
-import { ToastContainer, toast } from 'react-toastify'
+import { toast } from 'react-toastify'
 
 import { api } from '../../../services/api'
 
 import { StyledButton } from '../../../styles/buttons'
 import { StyledInput, StyledSelect } from '../../../styles/inputs'
-import { StyledHeadline, StyledTitle } from '../../../styles/fonts'
+import { StyledHeadline } from '../../../styles/fonts'
 
 export const Form = () => {
     const navigate = useNavigate()
@@ -30,7 +30,7 @@ export const Form = () => {
 
         try{
             const response = await api.post('users', formatedData)
-
+            console.log(response);
             toast.success('Usuário cadastrado com sucesso!', {
                 position: 'top-right',
                 autoClose: 5000,

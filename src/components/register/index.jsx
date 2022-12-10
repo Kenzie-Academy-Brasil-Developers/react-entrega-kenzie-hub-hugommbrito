@@ -1,4 +1,3 @@
-
 import { useNavigate } from 'react-router-dom'
 
 import { StyledRegister, StyledRegisterHeader } from './style'
@@ -8,6 +7,9 @@ import { Form } from './form'
 
 export const RegisterPage = () => {
     const navigate = useNavigate()
+
+
+
 
     return(
         <>

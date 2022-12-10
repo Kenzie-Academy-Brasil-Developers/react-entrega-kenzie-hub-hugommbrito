@@ -7,10 +7,12 @@ export const StyledButton = styled.button`
 
 
     background-color: ${props => {
-            if(props.small){
-                return 'var(--color-grey-3)'
+            if(props.primary){
+                return 'var(--color-primary)'
             }else if (props.grey){
                 return 'var(--color-grey-1)'
+            } else if(props.small){
+                return 'var(--color-grey-3)'
             } else if (props.negative){
                 return 'var(--color-primary-negative)'
             } else {

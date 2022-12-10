@@ -41,16 +41,20 @@ export const StyledDashboardHeader = styled.header`
 
 export const StyledDashboardMain = styled.main`
     position: relative;
-    top: 75px;
-    display: none;
-    
-    h2{
-        margin-top: 37px;
+    top: 95px;
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    p{
-        margin-top: 23px;
+    section{
+        background-color: var(--color-grey-3);
+        padding: 22px 9px;
+        margin: 22px 0
     }
+
 
     @media (min-width: 900px) {
         display: flex;
