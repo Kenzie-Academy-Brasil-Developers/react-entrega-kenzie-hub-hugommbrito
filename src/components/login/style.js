@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledLoginHeader = styled.div`
     margin: 50px auto 10px;
