@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const StyledTitle = styled.h2`
     color: ${props => {
@@ -12,11 +12,11 @@ export const StyledTitle = styled.h2`
     }};
     ${props =>{
             switch(props.type){
-                case "title1":
+                case 'title1':
                     return 'font-size: var(--font-s18); font-weight: var(--font-w700)';
-                case "title2":
+                case 'title2':
                     return 'font-size: var(--font-s16); font-weight: var(--font-w600)';
-                case "title3":
+                case 'title3':
                     return 'font-size: var(--font-s14); font-weight: var(--font-w700)';
             }
         }
